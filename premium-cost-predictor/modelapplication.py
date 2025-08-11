@@ -8,7 +8,7 @@ def scale_input(age, height, weight, is_diabetic=False, is_bp_issue=False,
     bmi = round(weight / ((height / 100) ** 2), 1)
     with open('std_scaler.pkl', 'rb') as scaler_file:
         standard_scaler = pickle.load(scaler_file)
-    scaled_num_data = standard_scaler.transform([[age, height, weight, bmi]])
+    scaled_num_data = standard_scaler.transform([[age, bmi]])
 
     diabetic = 0
     non_diabetic = 0
