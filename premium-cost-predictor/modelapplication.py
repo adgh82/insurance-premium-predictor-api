@@ -97,7 +97,7 @@ def append_data(src, new_data):
 
 
 def get_prediction(data_point):
-    with open('linear_reg_model.pkl', 'rb') as model_file:
+    with open('random_forest_model.pkl', 'rb') as model_file:
         elastic_net_model = pickle.load(model_file)
 
     return elastic_net_model.predict(data_point)
