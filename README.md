@@ -48,3 +48,7 @@ Sample Response :
     "premium": 37093.98
     
 }
+
+## References
+Here is the link to the Model Training Project [Model training](https://github.com/adgh82/insurance-cost-predictor-linear-reg)
+Here is the link to the [Medium article](https://medium.com/@adgh130582/eda-and-premium-price-prediction-from-insurance-dataset-7c3f30c77e04) describing the Model training exercise
